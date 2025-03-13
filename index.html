@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,53 @@
     <link rel="shortcut icon" href="imagens/roda.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    <header>
+    <header class="cabecalho">
         <nav class="menu">
-            <img src="imagens/logo-uzcar.png" alt="Logo Uz Car">
-            <a href="#" class="link-menu">Empresa</a>
-            <a href="#" class="link-menu">Produtos</a>
-            <a href="#" class="link-menu">Contato</a>
+            <img src="imagens/logo-uzcar.png" class="logo-uzcar" alt="Logo Uz Car">
+            <a href="#" class="link-cabecalho">Empresa</a>
+            <a href="#" class="link-cabecalho">Produtos</a>
+            <a href="#" class="link-cabecalho">Contato</a>
         </nav>
         <nav class="configs">
-            <p>+55 (19) 99999-9999</p>
-            <img src="imagens/profile.png" alt="Perfil">
-            <img src="imagens/favorito.png" alt="Favoritos">
-            <img src="imagens/carrinho-compra.png" alt="Carrinho de Compra">
+            <p class="num-telefone">+55 (19) 99999-9999</p>
+            <img src="imagens/profile.png" alt="Perfil" class="icone">
+            <img src="imagens/favorito.png" alt="Favoritos" class="icone">
+            <img src="imagens/carrinho-compra.png" alt="Carrinho de Compra" class="icone">
         </nav>
     </header>
-    
+    <div class="hero">
+        <div class="hero-esquerda">
+            <p class="titulo-hero">Entre em contato e conheça nossos planos exclusivos para revendedores.</p>
+            <p class="subtitulo-hero">Se cadastre tenha 30% off na primeira compra.</p>
+            <form class="form-hero">
+                <p class="form-texto">O que você procura?</p>
+                <button type="button" class="botao-hero"><img src="imagens/pesquisa.png" alt="Ícone de Busca"></button>
+            </form>
+        </div>
+        <div class="hero-direita">
+            <img src="imagens/pneus-sombra.png" class="foto-hero" alt="Foto de Pneus">
+        </div>
+    </div>
+    <div class="produtos-gerais">
+        <div class="item-gerais">
+            <img src="imagens/categoria-banco.png" class="foto-gerais" alt="Banco de carro">
+            <p class="titulo-gerais">Acessórios em geral</p>
+            <p class="subtitulo-gerais">Lorem ipsum dolor, sit amet consectetur.</p>
+        </div>
+        <div class="produtos-gerais">
+            <img src="imagens/categoria-pneu.png" class="foto-gerais" alt="Pneu de carro">
+            <p class="titulo-gerais">Pneus</p>
+            <p class="subtitulo-gerais">Lorem ipsum dolor, sit amet consectetur.</p>
+        </div>
+        <div class="produtos-gerais">
+            <img src="imagens/categoria-volante.png" class="foto-gerais" alt="Volante de carro">
+            <p class="titulo-gerais">Volantes</p>
+            <p class="subtitulo-gerais">Lorem ipsum dolor, sit amet consectetur.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
