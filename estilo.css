@@ -89,28 +89,80 @@ body{
 .hero{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background-color: #F5F5F5;
-    width: 1281px;
+    width: 100%;
+    max-width: 1281px;
     height: 600px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
-}
-.foto-hero{
-    border: 1px solid yellow;
+    box-sizing: border-box; 
 }
 .hero-direita{
     margin-top: 95px;
-    border: 1px solid red;
 }
 .hero-esquerda{
     width: 628px;
     height: 297px;
-    border: 1px solid rebeccapurple;
+    margin-left: 42px;
 }
 .titulo-hero{
     font-weight: 700;
     font-size: 41px;
     text-decoration: none;
     color: #000000;
+}
+.subtitulo-hero{
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    margin-top: 10px;
+}
+.form-hero{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.campo-form{
+    width: 422px;
+    height: 58px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.campo-form::placeholder {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 17px;
+}
+.botao-form{
+    width: 75px;
+    height: 58px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #4200FFCC;
+    margin-left: 15px;
+}
+.produtos-gerais{
+    width: 1280px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-gerais{
+    width: 400px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+.foto-gerais{
+    width: 161px;
+    height: 138px;
 }
