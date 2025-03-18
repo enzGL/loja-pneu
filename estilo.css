@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -143,6 +143,7 @@ body{
     border: 0px;
     background-color: #4200FFCC;
     margin-left: 15px;
+    cursor: pointer;
 }
 .produtos-gerais{
     width: 1280px;
@@ -160,9 +161,111 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
 }
 .foto-gerais{
-    width: 161px;
-    height: 138px;
+    width: 142px;
+    height: 129px;
+    margin-right: 34px;
+}
+.titulo-gerais{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.subtitulo-gerais{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+}
+.menu-compras{
+    width: 1274px;
+    height: 804px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.menu-lateral{
+    width: 380px;
+    height: 732px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.abas{
+    margin-left: 11px;
+    width: 358px;
+    height: 76px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+.icone-aba{
+    width: 36px;
+    height: 36px;
+    margin-right: 28px;
+}
+.texto-abas{
+    gap: 169px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 20px;
+    align-content: flex-start ;
+}
+.abas:hover {
+    background-color: #4200FF;
+    color: white;
+    
+}
+.setas{
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 31px;
+    font-size: 32px;
+}
+.anuncio{
+    width: 278px;
+    height: 356px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.foto-anuncio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    width: 278px;
+    height: 229px;
+}
+.texto-anuncio{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 100%;
+    width: 222px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.baixo{
+    display: flex;
+    margin-top: 20px;
+    gap: 83px;
+    align-items: center;
+    justify-content: center;
+}
+.valor{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    color: #4200FF;
 }
